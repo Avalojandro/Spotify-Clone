@@ -1,0 +1,18 @@
+
+.background-gray-900{
+    background-color: rgb(17, 17, 17);
+}
+
+.background-gray-800{
+    background-color: rgb(32, 32, 32);
+}
+.shadowCard{
+    transition: 0.5s;
+}
+.shadowCard:hover{
+    box-shadow: 0px 15px 10px #000000d2; 
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+

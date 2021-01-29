@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify 2</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="h-screen flex">
+    
+    <div class="h-full bg-black w-48 text-center flex-shrink-0">
+        <img class="p-4 hover:transition duration-700" src="../assets/logo.png" alt="">
+        <ul class="text-gray-400 text-left px-1 leading-10 font-bold cursor-pointer">
+            <li class="border-l-4 hover:transition duration-300 hover:text-white border-transparent px-2 hover:border-green-500">Home</li>
+            <li class="border-l-4 hover:transition duration-300 delay-100 hover:text-white border-transparent px-2 hover:border-green-500">Search</li>
+            <li class="border-l-4 hover:transition duration-300 delay-150 hover:text-white border-transparent px-2 hover:border-green-500">Your Library</li>
+        </ul>
+
+        <h1 class="text-base text-left pl-3 pt-8 text-gray-400">PLAYLIST</h1>
+
+        <div class="text-left py-3 px-2">
+            <img class="w-9 inline-block" src="../assets/plus.png" alt="">
+            <span class="text-gray-400 hover:text-white transition duration-200 cursor-pointer">Create Playlist</span>
+        </div>
+
+        <ul class="leading-10 pl-3 pt-3 text-left text-gray-400 cursor-pointer">
+            <li class="hover:text-white transition duration-200">Smooth Jazz</li>
+            <li class="hover:text-white transition duration-200">Lofi Radio</li>
+            <li class="hover:text-white transition duration-200">Techno</li>
+            <li class="hover:text-white transition duration-200">Rock</li>
+        </ul>
+    </div>
+
+    <div class="h-full flex-grow background-gray-900 px-8 overflow-x-hidden">
+        <h1 class="text-white inline-block font-bold text-2xl py-5 hover:transition duration-300">Recently Played</h1>
+        <ul class="mt-4 flex max-w-full hover:transition ease-in-out duration-700 cursor-pointer">
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img class="rounded-full" src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+        </ul>
+
+        <br><br>
+
+        <h1 class="text-white font-bold text-2xl py-t-5 hover:transition duration-300">Made for you</h1>
+        <h2 class="text-gray-400 text-xs">Get better recomendation the more you listen.</h2>
+        <ul class="mt-4 flex max-w-full hover:transition ease-in-out duration-1000 pb-10 cursor-pointer">
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img class="rounded-full" src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+            <li class="p-8 background-gray-800 rounded-lg w-56 mr-4 flex-shrink-0 shadowCard">
+                <img src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+                <h3 class="text-white font-bold py-2">Avalojandro</h3>
+                <h5 class="text-gray-400 text-xs">Name of the artist</h5>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="fixed h-24 border-t-2 border-black-600 border-black background-gray-800 w-full -bottom-0 grid grid-cols-3">
+        <div class="p-5 flex items-center">
+            <div class="w-16 h-16 inline-block"><img src="https://images.unsplash.com/photo-1518911710364-17ec553bde5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt=""></div>
+            <div class="inline-block pl-4">
+                <span class="text-white">Song Title</span><br>
+                <span class="text-gray-400 text-xs">Tommy</span>
+            </div>
+        </div>
+        <div>avalos</div>
+        <div>santamaria</div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
