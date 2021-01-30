@@ -14,5 +14,8 @@
     transform: translateY(-10px);
     transition: 0.5s;
 }
+.flip{
+    transform: scaleX(-1);
+}
 
 
